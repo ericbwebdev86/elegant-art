@@ -1,0 +1,23 @@
+.jumbotron {
+    background-image: url(/assets/images/yellow-green-stained-glass.jpg);
+    min-height: 1000px;
+}
+main {
+    color: black;
+    margin: auto 0;
+}
+.carousel {
+    padding: 200px;
+    height: 100%;
+    width: 100%;
+}
+#about {
+    height: 500px;
+}
+
+
+@media (max-width: 576px) {
+    .carousel {
+        padding:5px;
+    }
+}
