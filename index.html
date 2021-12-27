@@ -32,7 +32,7 @@
                         <a href="" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Reach Out</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -100,7 +100,7 @@
     <!-- my work end-->
 
     <!-- About start -->
-    <div class="container" id="about">
+    <div class="container h-100" id="about">
         <h2 class="text-center">About</h2>
         <div class="container row">
             <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, iusto nam dicta
@@ -125,6 +125,28 @@
     </div>
     <!-- About End -->
 
+    <!-- contact start -->
+    <div class="bg-dark text-light" id="contact">
+        <h2 class="text-center pt-3">Interested? Contact me!</h2>
+        <form class="container mt-5" action="mailto:ericbwebdev86@gmail.com" method="post" enctype="text/plain">
+            <div class="row">
+                <div class="col">
+                    <label for="name" class="form-label pt-1">Name</label>
+                    <input type="text" class="form-control" placeholder="Your name" aria-label="name" id="name">
+                </div>
+                <div class="col">
+                    <label for="emailAddress" class="form-label pt-1">Email address</label>
+                    <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label pt-1">Your Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Message..."></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <!-- contact end -->
 
 
 
