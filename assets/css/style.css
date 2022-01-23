@@ -7,17 +7,25 @@ main {
     margin: auto 0;
 }
 .carousel {
-    padding: 200px;
-    height: 100%;
-    width: 100%;
+    padding: 40px;
+    height: 50%;
+    width: 50%;
 }
 #about {
     height: 500px;
 }
+.bg-rose {
+    background-color:#F4C3C2;
+}
+.text-gold {
+    color: #A47E1B;
+}
 
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
     .carousel {
-        padding:5px;
+        padding:20px;
+        height: 100%;
+        width: 100%;
     }
 }
