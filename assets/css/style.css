@@ -17,8 +17,22 @@ main {
 .bg-rose {
     background-color:#F4C3C2;
 }
+.bg-gold {
+    background-color:#A47E1B;
+}
 .text-gold {
     color: #A47E1B;
+}
+.text-rose {
+    color: #F4C3C2;
+}
+.portfolio-link {
+    color:white;
+    transition-duration:0.5s;
+    transition-delay: 0.05s;
+}
+.portfolio-link:hover {
+    color:green;
 }
 
 
