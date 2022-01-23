@@ -1,18 +1,8 @@
-.jumbotron {
-    background-image: url(../images/yellow-green-stained-glass.jpg);
-    min-height: 1000px;
+.font-is {
+    font-family: 'Imperial Script', cursive;
 }
-main {
-    color: black;
-    margin: auto 0;
-}
-.carousel {
-    padding: 40px;
-    height: 50%;
-    width: 50%;
-}
-#about {
-    height: 500px;
+.font-ro {
+    font-family: 'Roboto', sans-serif;
 }
 .bg-rose {
     background-color:#F4C3C2;
@@ -26,13 +16,59 @@ main {
 .text-rose {
     color: #F4C3C2;
 }
-.portfolio-link {
-    color:white;
-    transition-duration:0.5s;
-    transition-delay: 0.05s;
+body {
+    font-family: 'Roboto', sans-serif;
 }
+.navbar-brand {
+    font-size:3em;
+}
+.navbar-nav {
+    font-size:larger;
+}
+.jumbotron {
+    background-image: url(../images/shapes.png);
+    min-height: 1000px;
+}
+
+
+.learn-more {
+    transition-duration:0.2s;
+    transition-delay: 0.02s;
+}
+.learn-more:hover {
+    background-color:#A47E1B;
+    color:#F4C3C2;
+}
+main {
+    color: black;
+    margin: auto 0;
+}
+.carousel {
+    padding: 40px;
+    height: 50%;
+    width: 50%;
+}
+#about {
+    height: 500px;
+}
+
+.contact-submit {
+    color:black;
+    transition-duration:0.2s;
+    transition-delay: 0.02s;
+}
+.contact-submit:hover {
+    color:#A47E1B;
+    background-color:black;
+}
+.portfolio-link {
+    color:#A47E1B;
+    transition-duration:0.2s;
+    transition-delay: 0.02s;
+}
+
 .portfolio-link:hover {
-    color:green;
+    color:#F4C3C2;
 }
 
 
